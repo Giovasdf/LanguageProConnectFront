@@ -2,11 +2,11 @@
   <main class="flex-shrink-0">
       <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
           <div class="container px-5">
-              <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Language Pro Connect</span></a>
+              <a class="navbar-brand" ><span class="fw-bolder text-primary">Language Pro Connect</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                      <li class="nav-item"><a class="nav-link" href="index.html">Login as a vendor</a></li>
+                      <li class="nav-item"><a class="nav-link" (click)="goToLogin()">Login as a vendor</a></li>
                   </ul>
               </div>
           </div>
@@ -148,6 +148,53 @@
               </div>
           </div>
       </header>
+      <section class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Meet Our Ambassadors</span></h2>
+                        <p class="lead fw-light mb-4">Explore profiles of ambassadors representing language schools worldwide.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 justify-content-center">
+              <div class="col-md-4 mb-5">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center"> <!-- Nuevo contenedor para centrar la imagen -->
+                        <img src="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" class="card-img-top circular-image" alt="Ambassador Image">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Ambassador Name</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">School Name</h6>
+                        <p class="card-text">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Contact Ambassador</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="card h-100">
+                  <div class="d-flex justify-content-center"> <!-- Nuevo contenedor para centrar la imagen -->
+                      <img src="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/cache/9.JPG-nggid03122-ngg0dyn-591x591-00f0w010c010r110f110r010t010.JPG" class="card-img-top circular-image" alt="Ambassador Image">
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title">Ambassador Name</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">School Name</h6>
+                      <p class="card-text">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="card-footer">
+                      <a href="#" class="btn btn-primary">Contact Ambassador</a>
+                  </div>
+              </div>
+          </div>
+
+            </div>
+
+        </div>
+    </section>
+
       <!-- About Section-->
       <section class="bg-light py-5">
         <div class="container px-5">
@@ -170,13 +217,13 @@
       <div class="container px-5">
           <div class="row align-items-center justify-content-between flex-column flex-sm-row">
               <div class="col-auto"><div class="small m-0">Copyright &copy; Language Pro Connect 2023</div></div>
-              <div class="col-auto">
+              <!-- <div class="col-auto">
                   <a class="small" href="#!">Privacy</a>
                   <span class="mx-1">&middot;</span>
                   <a class="small" href="#!">Terms</a>
                   <span class="mx-1">&middot;</span>
                   <a class="small" href="#!">Contact</a>
-              </div>
+              </div> -->
           </div>
       </div>
   </footer>

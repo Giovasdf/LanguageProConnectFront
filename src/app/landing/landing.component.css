@@ -1,0 +1,8 @@
+.circular-image {
+  width: 100px; /* Ajusta el ancho de la imagen según sea necesario */
+  height: 100px; /* Ajusta la altura de la imagen según sea necesario */
+  object-fit: cover; /* Para asegurar que la imagen se ajuste correctamente en el círculo */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  mask-image: radial-gradient(circle, white 100%, black 100%);
+}
