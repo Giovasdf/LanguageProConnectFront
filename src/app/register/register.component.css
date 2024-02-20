@@ -1,0 +1,9 @@
+/* Aumentar el tamaño del textarea */
+mat-form-field.mat-form-field {
+  width: 100%;
+}
+
+/* Ajustar la altura del textarea */
+textarea.mat-input-element {
+  height: 15000px; /* Puedes ajustar esta altura según tu preferencia */
+}
