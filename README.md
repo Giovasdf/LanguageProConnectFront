@@ -1,27 +1,37 @@
-# LanguageProConnect
+# Language Pro Connect
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+Language Pro Connect is a web application developed with Angular that allows you to find the perfect language course by connecting you with language school ambassadors from around the world.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Login and Registration**: Users can log in or register to access all the application's features.
+- **Connection with Ambassadors**: Users can connect with language school ambassadors to get more information about the courses.
+- **User Profile**: Users have a profile where they can view their details and the connections they've made with ambassadors.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: For the frontend development of the application.
+- REST Countries API: For obtaining information about countries.
 
-## Build
+## Installation and Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone this repository.
+2. Navigate to the project folder in your terminal.
+3. Install frontend dependencies with the command `npm install`.
+4. Configure necessary environment variables.
+5. Start the development server with the command `ng serve`.
+6. Open your browser and visit `http://localhost:4200`.
 
-## Running unit tests
+## Contribution
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Contributions are welcome. If you want to contribute to this project, follow these steps:
 
-## Running end-to-end tests
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit them (`git commit -am 'Add a new feature'`).
+4. Push your changes to your GitHub repository (`git push origin feature/new-feature`).
+5. Open a pull request.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## License
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
